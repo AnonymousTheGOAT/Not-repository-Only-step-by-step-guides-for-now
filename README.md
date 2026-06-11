@@ -1,2 +1,31 @@
 # Not-repository-Only-step-by-step-guides-for-now
 (Respositories will be released soon, peronally working on some projects unofficially. Stay tuned for modules, apks, Roms, etc.)
+
+
+
+Proper Configuration Steps (Magisk_Root_Only+Custom_Roms+Android_11_to_16)
+
+1. Enable Zygisk in Magisk Settings → Reboot
+2. Install Zygisk Next module → Reboot
+3. Install Play Integrity Fork → Run it in module settings → Reboot
+4. Install Shamiko → Reboot 
+5. In Magisk Settings:
+               ❌ Disable "Enforce DenyList"
+               ✅ Add banking/UPI apps in
+                  Configure Denylist section
+6. Reboot device
+7. Clear data of banking apps and relaunch
+8. And boom💥. Banking/UPI apps running 
+     smoothly (95% working, 5% exception due to 
+     updates or downloads from non-github sites and apps)
+
+
+🤯Still not working, try this : 
+1. Flash tricky store module in Magisk→ Reboot
+2. Flash Yurikey manager module in Magisk→
+     Reboot→Configure it
+3. Not working, well change your rom/gsi/OS(last
+     option) or relock bootlooader and fall back
+     to stock rom.
+
+All the best👍
